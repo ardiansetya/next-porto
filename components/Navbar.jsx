@@ -72,7 +72,7 @@ const Navbar = () => {
           </button>
           <a
             className="hidden font-Ovo lg:flex items-center gap-3 px-10 py-2.5 border border-gray-500 rounded-full ml-4"
-            href="#contact">
+            href="https://linkedin.com/in/ardiansetya" target="_blank">
             Contact{" "}
             <Image src={assets.arrow_icon} alt="arrow-icon" className="w-3" />
           </a>
