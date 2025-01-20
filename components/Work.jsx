@@ -24,11 +24,13 @@ const Work = () => {
                 <p className="text-sm text-gray-700 ">{project.description}</p>
               </div>
               <div className="border rouded-full border-black w-9 aspect-square flex items-center justify-center shadow-[2px_2px_0_#000] group-hover:bg-slate-300 transition duration-500 rounded-xl">
-                <Image
-                  src={assets.send_icon}
-                  alt="send_icon"
-                  className="w-5 "
-                />
+                <a href={project.src} target="_blank">
+                  <Image
+                    src={assets.send_icon}
+                    alt="send_icon"
+                    className="w-5 "
+                  />
+                </a>
               </div>
             </div>
           </div>

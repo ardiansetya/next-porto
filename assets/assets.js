@@ -35,6 +35,12 @@ import right_arrow from './right-arrow.png';
 import send_icon from './send-icon.png';
 import right_arrow_bold from './right-arrow-bold.png';
 import right_arrow_bold_dark from './right-arrow-bold-dark.png';
+import react from './react.png'
+import next from './nextjs.png'
+import html from './html.png'
+import css from './css.png'
+import js from './js.png'
+import tailwind from './tailwind.png'
 
 export const assets = {
     user_image,
@@ -73,45 +79,50 @@ export const assets = {
     right_arrow,
     send_icon,
     right_arrow_bold,
-    right_arrow_bold_dark
+    right_arrow_bold_dark,
+    next,
+    react,
+    html,
+    css,
+    js,
+    tailwind
 };
 
 export const workData = [
     {
-        title: 'Frontend project',
-        description: 'Web Design',
-        bgImage: '/work-1.png',
+        title: 'BTNG (Team)',
+        description: 'Web for registering BTNG',
+        bgImage: '/work-1.jpg',
+        src:'https://btng.dnccudinus.org/'
     },
     {
-        title: 'Geo based app',
-        description: 'Mobile App',
-        bgImage: '/work-2.png',
+        title: 'Dinacom (Team)',
+        description: 'Web for software competition',
+        bgImage: '/work-2.jpg',
+        src: 'https://dinacom.dnccudinus.org/'
+
     },
     {
-        title: 'Photography site',
-        description: 'Web Design',
-        bgImage: '/work-3.png',
+        title: 'BencanAlert',
+        description: 'Fullstack project build with React Express',
+        bgImage: '/work-3.jpg',
+        src: 'https://disasters-report-react-express.vercel.app/'
     },
     {
-        title: 'UI/UX designing',
-        description: 'UI/UX Design',
+        title: 'E-Commerce (still in progress)',
+        description: 'Fullstack build with Next js',
         bgImage: '/work-4.png',
+        src: 'https://github.com/ardiansetya/E-Commerce-Next-Ts.git'
     },
 ]
 
-export const serviceData = [
-    { icon: assets.web_icon, title: 'Web design', description: 'Web development is the process of building, programming...', link: '' },
-    { icon: assets.mobile_icon, title: 'Mobile app', description: 'Mobile app development involves creating software for mobile devices...', link: '' },
-    { icon: assets.ui_icon, title: 'UI/UX design', description: 'UI/UX design focuses on creating a seamless user experience...', link: '' },
-    { icon: assets.graphics_icon, title: 'Graphics design', description: 'Creative design solutions to enhance visual communication...', link: '' },
-]
 
 export const infoList = [
     { icon: assets.code_icon, iconDark: assets.code_icon_dark, title: 'Languages', description: 'HTML, CSS, JavaScript React Js, Next Js' },
     { icon: assets.edu_icon, iconDark: assets.edu_icon_dark, title: 'Education', description: 'Student of Dian Nuswantoro University in Computer Science' },
-    { icon: assets.project_icon, iconDark: assets.project_icon_dark, title: 'Projects', description: 'Built more than 5 projects' }
+    { icon: assets.project_icon, iconDark: assets.project_icon_dark, title: 'Projects', description: 'Built more than 3 projects' }
 ];
 
 export const toolsData = [
-    assets.vscode, assets.firebase, assets.mongodb, assets.figma, assets.git
+    assets.html, assets.css, assets.js, assets.tailwind, assets.react, assets.next
 ];
