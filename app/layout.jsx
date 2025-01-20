@@ -13,7 +13,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={`${outfit.className} ${ovo.className}`}>{children}</body>
+      <body className={`${outfit.className} ${ovo.className} antialiased leading-8 overflow-x-hidden` }>{children}</body>
     </html>
   );
 }
